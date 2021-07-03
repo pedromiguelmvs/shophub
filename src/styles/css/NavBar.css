@@ -1,0 +1,27 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  padding: 0px 10%;
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-container .links {
+  display: flex;
+  gap: 40px;
+}
+.navbar-container .links a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar-container .total-value-and-purchases {
+  display: flex;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=NavBar.css.map */

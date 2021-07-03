@@ -1,0 +1,26 @@
+.gridlist-container {
+  width: 950px;
+  height: 300px;
+  border-radius: 50px;
+  background: linear-gradient(to right, #fdb215, #fdcd54);
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.top-section .results-and-filter {
+  display: flex;
+  gap: 10px;
+}
+.top-section .results-and-filter p {
+  font-weight: 600;
+  font-size: 12px;
+}
+.top-section .results-and-filter .filter {
+  display: flex;
+}
+
+/*# sourceMappingURL=GridList.css.map */

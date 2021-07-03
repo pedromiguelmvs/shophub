@@ -1,0 +1,30 @@
+$container-first-color: #fdb215;
+$container-seccond-color: #fdcd54;
+
+.gridlist-container {
+    width: 950px;
+    height: 300px;
+    border-radius: 50px;
+    background: linear-gradient(to right,  $container-first-color, $container-seccond-color);
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+    .results-and-filter {
+        display: flex;
+        gap: 10px;
+
+        p {
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .filter {
+            display: flex;
+        }
+    }
+}
